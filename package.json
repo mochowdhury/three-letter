@@ -1,0 +1,38 @@
+{
+  "name": "TLA",
+  "version": "1.0.0",
+  "description": "This is a dictionary type CRUD application to assist in the collection of acronyms and abbreviations.",
+  "main": "tla.js",
+  "scripts": {
+    "start": "supervisor ./config/tla.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochowdhury/three-letter.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Search",
+    "Dictionary",
+    "Acronym",
+    "Abbreviation"
+  ],
+  "author": "Mo Chowdhury",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mochowdhury/three-letter/issues"
+  },
+  "homepage": "https://github.com/mochowdhury/three-letter",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0"
+  }
+}

@@ -1,0 +1,29 @@
+<!--
+Mo Chowdhury
+D3Tech.io
+-->
+<!DOCTYPE html>
+<html lang="en">
+      <%- include('../assets/partials/head') %>
+   <body>
+         <%- include('../assets/partials/nav') %>
+<div class="container">
+<div class="row">
+    <form method="post" enctype="application/x-www-form-urlencoded">
+      <div id="tlaDelete" class="col-md-4" class="form-group">
+        <p class="lead">Delete Obsolete Acronym</p>
+        <label for="deleteAcronym">Acronym</label>
+        <input type="text" name="acronymName" class="form-control" id="deleteAcronym" placeholder="Acronym...">
+        <br>
+        <button type="submit" class="btn btn-default">DELETE</button>
+      </div>
+    </form>
+  </div>
+</div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+      <%- include('../assets/partials/scripts') %>
+   </body>
+</html>

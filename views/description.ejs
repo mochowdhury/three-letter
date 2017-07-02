@@ -1,0 +1,23 @@
+<!--
+Mo Chowdhury
+D3Tech.io
+-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <%- include('../assets/partials/head') %>
+   </head>
+   <body>
+         <%- include('../assets/partials/nav') %>
+      <div class="container">
+        <% result.forEach((result) => { %>
+          <h4><%= result.acronym_description %></h4>
+        <% }) %>
+       </div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+      <%- include('../assets/partials/scripts') %>
+   </body>
+</html>

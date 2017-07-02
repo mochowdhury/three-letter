@@ -1,0 +1,35 @@
+<!--
+Mo Chowdhury
+D3Tech.io
+-->
+<!DOCTYPE html>
+<html lang="en">
+      <%- include('../assets/partials/head') %>
+   <body>
+         <%- include('../assets/partials/nav') %>
+<div class="container">
+<div class="row">
+    <form method="post" enctype="application/x-www-form-urlencoded">
+      <div id="tlaCreate" class="col-md-4" class="form-group">
+        <p class="lead">Create New Acronym</p>
+        <label for="addNewAcronym">Acronym</label>
+        <input type="text" name="acronymName" class="form-control" id="addNewAcronym" placeholder="Acronym...">
+        <br>
+        <label for="addNewAcronym">Description</label>
+        <input type="text" name="acronymDescription" class="form-control" id="addNewAcronym" placeholder="Description...">
+        <br>
+        <label for="addNewAcronym">Background Info</label>
+        <textarea rows="3" name="acronymBackgroundInfo" class="form-control" id="addNewAcronym" placeholder="Background info..."></textarea>
+        <br>
+        <button type="submit" class="btn btn-default">CREATE</button>
+      </div>
+    </form>
+  </div>
+</div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+      <%- include('../assets/partials/scripts') %>
+   </body>
+</html>
